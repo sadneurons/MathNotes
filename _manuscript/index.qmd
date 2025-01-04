@@ -5,13 +5,14 @@ authors:
     affiliation: The Open University
     roles: writing
     corresponding: true
+bibliography: references.bib
 ---
 
 ## Thomas Calculus Ch 3. Notes
 
 ### Definitions
 
-:::{.callout-note title="Definition 1: Slope"}
+::: {.callout-note title="Definition 1: Slope"}
 The **slope** of the curve $y = f(x)$ at the point $P(x_0, f(x_0))$ is the number
 
 $$
@@ -158,6 +159,7 @@ $$
 library(reticulate)
 ```
 
+```
 
 Q1. $y = -x^2 + 3$
 
