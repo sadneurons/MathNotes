@@ -1,0 +1,18 @@
+Version: 1.0
+ProjectId: 2e0e204c-d635-4dc3-b1c3-4ac9e48da3f6
+
+RestoreWorkspace: Default
+SaveWorkspace: Default
+AlwaysSaveHistory: Default
+
+EnableCodeIndexing: Yes
+UseSpacesForTab: Yes
+NumSpacesForTab: 2
+Encoding: UTF-8
+
+RnwWeave: Sweave
+LaTeX: pdfLaTeX
+
+PythonType: system
+PythonVersion: 3.13.0
+PythonPath: C:/Users/rossd/AppData/Local/Programs/Python/Python313/python.exe
