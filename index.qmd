@@ -281,7 +281,5 @@ results = compute_derivatives(r, theta)
     
 ```
 
-```{octave}
->octave
-
+```{}
 ```
