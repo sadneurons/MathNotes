@@ -1,4 +1,11 @@
-py_install--- title: Calculus I Notes authors: - name: Ross Dunne affiliation: The Open University roles: writing corresponding: true bibliography: references.bib ---
+--- 
+title: Calculus I Notes 
+authors: Ross Dunne 
+affiliation: The Open University 
+roles: writing 
+corresponding: true 
+bibliography: references.bib 
+---
 
 ## Thomas Calculus Ch 3. Notes
 
@@ -281,5 +288,5 @@ results = compute_derivatives(r, theta)
     
 ```
 
-```{}
+```         
 ```

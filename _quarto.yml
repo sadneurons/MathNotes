@@ -11,7 +11,7 @@ format:
       hypothesis: true
   docx: default
   pdf: default
-  
+
 execute:
   freeze: false
   output: asis 
