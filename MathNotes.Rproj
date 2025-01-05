@@ -11,10 +11,6 @@ NumSpacesForTab: 2
 Encoding: UTF-8
 
 RnwWeave: Sweave
-LaTeX: pdfLaTeX
-
-PythonType: virtualenv
-PythonVersion: 3.13.0
-PythonPath: ~/.virtualenvs/r-reticulate/Scripts/python.exe
+LaTeX: LuaLaTeX
 
 SpellingDictionary: en_GB
