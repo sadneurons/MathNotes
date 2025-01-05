@@ -1,4 +1,4 @@
---- 
+---
 title: Calculus I Notes 
 authors: Ross Dunne 
 affiliation: The Open University 
@@ -151,6 +151,7 @@ $$
 
 ```{r, setup, echo=FALSE}
 library(reticulate)
+library(pracma)
 ```
 
 Q1. $y = -x^2 + 3$
@@ -288,5 +289,18 @@ results = compute_derivatives(r, theta)
     
 ```
 
-```         
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| paged-print: true
+f <- function(x, y) x^2 - y^2
+xx <- c(-1, 1); yy <- c(-1, 1)
+## Not run:
+vectorfield(f, xx, yy, scale = 0.1, col = "lightblue")
+for (xs in seq(-1, 1, by = 0.25)) {
+sol <- rk4(f, -1, 1, xs, 100)
+lines(sol$x, sol$y, col="darkred")
+}
+grid()
 ```
